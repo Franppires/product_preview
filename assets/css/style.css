@@ -1,0 +1,80 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.product { 
+    width: 50%;
+    border-radius: 20px 0 0 20px;
+}
+
+.card { 
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.content { 
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    color: hsl(228, 12%, 48%);
+}
+
+h1 { 
+    margin: 25px 25px 25px 0;
+    color: hsl(212, 21%, 14%);;
+}
+
+.price { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.regular { 
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    color: hsl(158, 36%, 37%);
+    margin: 25px 25px 25px 0;
+}
+
+button { 
+    font-size: larger;
+    color: hsl(30, 38%, 92%);
+    background-color: hsl(158, 36%, 37%);
+    border: hsl(158, 36%, 37%);
+    height: 40px;
+    border-radius: 10px;
+}
+
+button:hover { 
+    cursor: pointer;
+    background-color: hsl(212, 21%, 14%);
+}
+
+.attribution { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 375px){
+    
+}
